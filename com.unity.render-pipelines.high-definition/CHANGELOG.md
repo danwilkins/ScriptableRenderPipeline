@@ -410,6 +410,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fixed missing initialization of input params in Blit for VR.
 - Fix Inf source in LTC for area lights.
 - Fixed a bug related to ray traced area light shadow history.
+- Hide reflection probes in the renderer components.
 
 ### Changed
 - Color buffer pyramid is not allocated anymore if neither refraction nor distortion are enabled
