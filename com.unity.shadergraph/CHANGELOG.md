@@ -7,7 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [8.0.1] - 2020-05-25
 
 ### Fixed
-- Fix Changelog
+- Fixed a bug where the user couldn't open up HDRP Master Node Shader Graphs without the Render Pipeline set to HDRP.
+- Fixed a bug where adding an HDRP Master Node to a Shader Graph would softlocks the Shader Graph.
 
 ## [8.0.0] - 2020-05-25
 
