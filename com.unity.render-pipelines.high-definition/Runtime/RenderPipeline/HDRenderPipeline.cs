@@ -661,7 +661,7 @@ namespace UnityEngine.Rendering.HighDefinition
                 lightProbeProxyVolumes = true,
                 motionVectors = true,
                 receiveShadows = false,
-                reflectionProbes = true,
+                reflectionProbes = false,
                 rendererPriority = true,
                 overridesFog = true,
                 overridesOtherLightingSettings = true,
@@ -672,7 +672,6 @@ namespace UnityEngine.Rendering.HighDefinition
                 , overridesMaximumLODLevel = true
 #if UNITY_2020_1_OR_NEWER
                 , terrainDetailUnsupported = true
-                , rendererProbes = false
 #endif
             };
 
