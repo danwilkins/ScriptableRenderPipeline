@@ -66,7 +66,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fixed a bug where PBR and Unlit master nodes in Universal had Alpha Clipping enabled by default.
 - Fixed an issue in where analytics wasn't always working.
 - Fixed a bug where the user couldn't open up HDRP Master Node Shader Graphs without the Render Pipeline set to HDRP.
-- Fixed a bug where adding an HDRP Master Node to a Shader Graph would softlocks the Shader Graph.
+- Fixed a bug where adding a HDRP Master Node to a Shader Graph would softlock the Shader Graph.
 
 ## [7.1.1] - 2019-09-05
 ### Added
