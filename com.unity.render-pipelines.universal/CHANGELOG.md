@@ -107,13 +107,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fixed an issue where MSAA isn't applied until eye textures are relocated by changing their resolution. [case 1197958](https://issuetracker.unity3d.com/issues/oculus-quest-oculus-go-urp-msaa-isnt-applied-until-eye-textures-are-relocated-by-changing-their-resolution)
 - Fixed an issue where camera stacking didn't work properly inside prefab mode. [case 1220509](https://issuetracker.unity3d.com/issues/urp-cannot-assign-overlay-cameras-to-a-camera-stack-while-in-prefab-mode)
 - Fixed the definition of `mad()` in SMAA shader for OpenGL.
+- Fixed an issue that caused assets to be reimported if player prefs were cleared. [case 1192259](https://issuetracker.unity3d.com/issues/lwrp-clearing-playerprefs-through-a-script-or-editor-causes-delay-and-console-errors-to-appear-when-entering-the-play-mode)
 - FIxed missing Custom Render Features after Library deletion. [case 1196338](https://issuetracker.unity3d.com/product/unity/issues/guid/1196338/)
 - Fixed not being able to remove a Renderer Feature due to tricky UI selection rects. [case 1208113](https://issuetracker.unity3d.com/product/unity/issues/guid/1208113/)
 - Fixed an issue where the Camera Override on the Render Object Feature would not work with many Render Features in a row. [case 1205185](https://issuetracker.unity3d.com/product/unity/issues/guid/1205185/)
 - Fixed UI clipping issue in Forward Renderer inspector. [case 1211954](https://issuetracker.unity3d.com/product/unity/issues/guid/1211954/)
 - Fixed a Null ref when trying to remove a missing Renderer Feature from the Forward Renderer. [case 1196651](https://issuetracker.unity3d.com/product/unity/issues/guid/1196651/)
 - Fixed data serialization issue when adding a Renderer Feature to teh Forward Renderer. [case 1214779](https://issuetracker.unity3d.com/product/unity/issues/guid/1214779/)
-
 
 ## [7.1.1] - 2019-09-05
 ### Upgrade Guide
