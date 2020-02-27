@@ -50,8 +50,10 @@ namespace UnityEngine.Rendering.Universal
         protected virtual void OnValidate()
         {
             SetDirty();
-            if(m_RendererFeatures.Contains(null))
+#if UNITY_EDITOR
+            if (m_RendererFeatures.Contains(null))
                 ValidateRendererFeatures();
+#endif
         }
 
         protected virtual void OnEnable()
