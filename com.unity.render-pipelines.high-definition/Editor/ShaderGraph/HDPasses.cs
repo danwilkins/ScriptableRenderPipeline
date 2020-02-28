@@ -601,7 +601,7 @@ namespace UnityEditor.Rendering.HighDefinition.ShaderGraph
                 // Collections
                 structs = HDStructCollections.Default,
                 fieldDependencies = HDFieldDependencies.Default,
-                renderStates = HDRenderStates.HDShadowCaster,
+                renderStates = HDRenderStates.HDBlendShadowCaster,
                 pragmas = HDPragmas.DotsInstanced,
                 defines = HDDefines.ShaderGraphRaytracingHigh,
                 keywords = HDKeywords.HDBase,

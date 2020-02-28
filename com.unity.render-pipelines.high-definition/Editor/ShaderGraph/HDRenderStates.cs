@@ -347,7 +347,6 @@ namespace UnityEditor.Rendering.HighDefinition.ShaderGraph
             } },
             { RenderState.ZTest(Uniforms.zTestDepthEqualForOpaque), new FieldCondition[] {
                 new FieldCondition(Fields.SurfaceOpaque, false),
-                new FieldCondition(Fields.AlphaTest, true)
             } },
             { RenderState.ZTest(ZTest.Equal), new FieldCondition[] {
                 new FieldCondition(Fields.SurfaceOpaque, true),
@@ -373,7 +372,6 @@ namespace UnityEditor.Rendering.HighDefinition.ShaderGraph
             } },
             { RenderState.ZTest(Uniforms.zTestDepthEqualForOpaque), new FieldCondition[] {
                 new FieldCondition(Fields.SurfaceOpaque, false),
-                new FieldCondition(Fields.AlphaTest, true)
             } },
             { RenderState.ZTest(ZTest.Equal), new FieldCondition[] {
                 new FieldCondition(Fields.SurfaceOpaque, true),
